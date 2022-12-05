@@ -2,7 +2,7 @@ package application;
 
 import java.awt.Point;
 
-/*
+/**
  * @author Shannon Duvall
  * 
  * 
@@ -13,6 +13,7 @@ import java.awt.Point;
  * 
  * Maze squares are accessed by their point in (row, column) order
  */
+
 public class Maze {
 	// Possible states of squares that make up a maze
 	public static final int WALL = 0;	
@@ -194,6 +195,5 @@ public class Maze {
 			fill(row,col-1,replace,replaceWith);
 		}
 	}
+	
 }
-
-
